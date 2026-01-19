@@ -15,7 +15,9 @@ class Program
             return "Short";
         else if (heightCm < 180)
             return "Average";
-        else
+        else if (heightCm >= 180 && heightCm <= 300)
             return "Tall";
+        else
+            return "Invalid height";
     }
 }
