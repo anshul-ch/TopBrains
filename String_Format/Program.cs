@@ -16,7 +16,7 @@ class Program
             students[i] = Console.ReadLine();
         }
 
-        // Read minimum score
+        // Get minimum score
         int minScore = int.Parse(Console.ReadLine());
 
         string json = BuildStudentsJson(students, minScore);
