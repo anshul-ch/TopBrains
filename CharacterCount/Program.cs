@@ -9,9 +9,9 @@ class Program
 
         Dictionary<char, int> counts = CountCharacters(input);
 
-        foreach (var kvp in counts)
+        foreach (var count in counts)
         {
-            Console.WriteLine($"'{kvp.Key}': {kvp.Value}");
+            Console.WriteLine($"'{count.Key}': {count.Value}");
         }
     }
 
